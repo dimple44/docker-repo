@@ -18,7 +18,7 @@ pipeline {
                 }
                 stage('Docker test') {
                    steps {
-                   sh 'docker run -d -p 8085:80  anuwinder/pipeline:tagname'
+                   sh 'docker run -d -p 8089:80  anuwinder/pipeline:tagname'
                  
             }
                 }
