@@ -21,4 +21,3 @@ RUN rm -rf /var/www/html/index.html
 EXPOSE 80
 ENTRYPOINT ["apache2ctl"]
 CMD ["-DFOREGROUND"]
-Footer
